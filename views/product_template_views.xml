@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='utf-8'?>
 <odoo>
     <!-- Modifikasi List View -->
     <record id="view_product_tree_inherited" model="ir.ui.view">
