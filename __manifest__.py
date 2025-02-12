@@ -18,12 +18,13 @@ Modul Custom Kyoraku Blowmolding Indonesia
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base', 'stock'],
+    'depends': ['base', 'stock', 'product'],
 
     # always loaded
     'data': [
-        'views/views.xml',
-        'views/templates.xml',
+        'views/product_template_views.xml',
     ],
+    'installable' : True,
+    'application' : False,
 }
 
